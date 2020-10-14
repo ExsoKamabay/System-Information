@@ -1,8 +1,5 @@
-from system_intelligence.query import *;
-from art import *;from stringcolor import *;
-from url64 import *;from random import choice;
-from time import sleep as timeout;import os;
-import animation;from shutil import rmtree;
+from system_intelligence.query import *;from art import *;from stringcolor import *;from url64 import *;
+from time import sleep as timeout;import os;import animation;from shutil import rmtree;from random import choice;
 class SystemInfo:
     def __init__(self):
         setattr(self,"xcolors",(choice(["#8A2BE2","#6495ED","#008B8B","#006400"])));
