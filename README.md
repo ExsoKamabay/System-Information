@@ -9,7 +9,7 @@ installation & run:
 
 or 
 
-- $ git clone clone https://github.com/ExsoKamabay/System-Information.git && cd System-Information && pip3 install -r requirements.txt && python3 System_Info.py
+- $ git clone https://github.com/ExsoKamabay/System-Information.git && cd System-Information && pip3 install -r requirements.txt && python3 System_Info.py
 <!DOCTYPE html>
 <html lang="en">
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
