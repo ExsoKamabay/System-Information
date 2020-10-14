@@ -43,8 +43,8 @@ class SystemInfo:
                 decode("WW91VHViZSA6IGh0dHBzOi8vd3d3LnlvdXR1YmUuY29tL2NoYW5uZWwvVUNDa0ZQV2JRYXFvblBjNTF1VmVLdnlnLA"),
                 decode("Q29weXJpZ2h0IDogMTQxMDIwMjAg")));
         elif getattr(self,"U53") == str("yes"):
-            rmtree("output");os.makedirs(str("output"));query_and_export(query_scope=list(('all',)),verbose=True,
-            generate_html_table=False,export_format=str(decode("anNvbg")),output='output/system_info.json');
+            os.makedirs(str("output"));rmtree("output");os.makedirs(str("output"));query_and_export(query_scope=list(('all',)),
+            verbose=True,generate_html_table=False,export_format=str(decode("anNvbg")),output='output/system_info.json');
             print("\t"+cs(text2art(" successfully ","fancy64",True,"wave1"),getattr(self,"xcolors")));
         else:print(cs("KeyInvalid",getattr(self,"xcolors")));
 __name__==SystemInfo().main();
